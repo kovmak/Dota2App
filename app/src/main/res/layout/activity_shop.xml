@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:layout_editor_absoluteX="-10dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПРЕДМЕТИ"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <View
+        android:id="@+id/linemain"
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ЯКІ Є"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="23sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПРЕДМЕТИ?"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="385dp"
+        android:layout_height="105dp"
+        android:gravity="center"
+        android:text="Внутрішньоігрове спорядження героїв, яке може давати героям додаткові характеристики та спеціальні здібності. Їх можна купити в декількох крамницях на ігровій карті. Деякі предмети низького розряду складаються в предмети вищого розряду, за допомогою рецепта. "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Розхідники"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#5A5A5A"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="396dp"
+        android:layout_height="108dp"
+        android:gravity="center"
+        android:text="Dota і логотип Dota є торговельними марками та/або зареєстрованими торговельними марками Valve Corporation. 2023 Valve Corporation. Усі права захищено."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="65dp"
+        android:layout_height="2dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textitemcontext_1"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Безкоштовний"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/textitemcontext_2"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 50 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <TextView
+        android:id="@+id/textitemcontext_3"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 80 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/textitemcontext_4"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 50 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <TextView
+        android:id="@+id/textitemcontext_5"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 90 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/textitemcontext_6"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 100 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <TextView
+        android:id="@+id/textitemcontext_7"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 65 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/textitemcontext_8"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 50 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <TextView
+        android:id="@+id/textitemcontext1"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Встановлює невидимий тотем спостереження"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/textitemcontext2"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Встановлює невидимий тотем всебачення"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <TextView
+        android:id="@+id/textitemcontext3"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Робить усіх невидимих героїв видимими "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/textitemcontext4"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Усі підконтрольні гравцям істоти та герої стають невидимими "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:id="@+id/textitemcontext5"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• З'їдає дерево, збільшуючи відновлення здоров'я на 7"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/textitemcontext6"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Збільшує відновлення здоров'я обраної істоти на 30"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <TextView
+        android:id="@+id/textitemcontext7"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Миттєво відновлює 100 мани"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/textitemcontext8"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Збільшує відновлення мани обраної істоти на 6 "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:id="@+id/textitem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observer Ward"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <TextView
+        android:id="@+id/textitem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentry Ward"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/textitem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dust of Appearance"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textitem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smoke of Deceit"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <TextView
+        android:id="@+id/textitem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tango"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <TextView
+        android:id="@+id/textitem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healing Salve"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/textitem7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enchanted Mango"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textitem8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clarity"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <ImageView
+        android:id="@+id/imageItem1"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="223dp"
+        android:src="@drawable/observer"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toStartOf="@+id/textitemcontext1"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem2"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:src="@drawable/sentry"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toStartOf="@+id/textitemcontext2"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem6"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="175dp"
+        android:src="@drawable/salve"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/imageItem2"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem3"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:src="@drawable/dust"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toStartOf="@+id/textitemcontext3"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.576"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem4"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginBottom="63dp"
+        android:src="@drawable/smoke"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toStartOf="@+id/textitemcontext4"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem8"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="217dp"
+        android:src="@drawable/clarity"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/imageItem4"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem7"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mango"
+        app:layout_constraintBottom_toTopOf="@+id/imageItem8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toEndOf="@+id/imageItem3"
+        app:layout_constraintTop_toBottomOf="@+id/imageItem6"
+        app:layout_constraintVertical_bias="0.455"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageItem5"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="223dp"
+        android:src="@drawable/tango"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toEndOf="@+id/imageItem1"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="104dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/valve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text5"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/dtlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ButtonBack"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#101010"
+        android:onClick="MainMenu"
+        android:text="Головне Меню"
+        android:textColor="#E8E6E3"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ButtonNew"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#101010"
+        android:onClick="WhatsNewClick"
+        android:text="Що нового?"
+        android:textColor="#E8E6E3"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text5"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="414dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

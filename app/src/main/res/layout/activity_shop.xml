@@ -2,12 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#090909"
-    android:verticalScrollbarPosition="defaultPosition"
-    tools:layout_editor_absoluteX="-10dp"
-    tools:layout_editor_absoluteY="0dp">
+    android:verticalScrollbarPosition="defaultPosition">
 
     <TextView
         android:id="@+id/textmain"
@@ -110,10 +109,10 @@
         android:background="#5A5A5A"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text5"
@@ -156,58 +155,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
-
-    <TextView
-        android:id="@+id/textitemcontext_2"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• 50 золота"
-        android:textColor="#E2B23A"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496" />
-
-    <TextView
-        android:id="@+id/textitemcontext_3"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• 80 золота"
-        android:textColor="#E2B23A"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
-
-    <TextView
-        android:id="@+id/textitemcontext_4"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• 50 золота"
-        android:textColor="#E2B23A"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/imageItem1"
+        app:layout_constraintTop_toTopOf="@+id/textitem1"
+        app:layout_constraintVertical_bias="0.06" />
 
     <TextView
         android:id="@+id/textitemcontext_5"
@@ -220,10 +171,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.413" />
 
     <TextView
         android:id="@+id/textitemcontext_6"
@@ -236,10 +187,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496" />
+        app:layout_constraintVertical_bias="0.477" />
 
     <TextView
         android:id="@+id/textitemcontext_7"
@@ -252,10 +203,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <TextView
         android:id="@+id/textitemcontext_8"
@@ -268,10 +219,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <TextView
         android:id="@+id/textitemcontext1"
@@ -284,58 +235,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
-
-    <TextView
-        android:id="@+id/textitemcontext2"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• Встановлює невидимий тотем всебачення"
-        android:textColor="#A7A7A7"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474" />
-
-    <TextView
-        android:id="@+id/textitemcontext3"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• Робить усіх невидимих героїв видимими "
-        android:textColor="#A7A7A7"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
-
-    <TextView
-        android:id="@+id/textitemcontext4"
-        android:layout_width="121dp"
-        android:layout_height="18dp"
-        android:text="• Усі підконтрольні гравцям істоти та герої стають невидимими "
-        android:textColor="#A7A7A7"
-        android:textColorLink="#E8E6E3"
-        android:textSize="7sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622" />
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/imageItem1"
+        app:layout_constraintTop_toBottomOf="@+id/textitem1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textitemcontext5"
@@ -348,10 +251,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.39" />
 
     <TextView
         android:id="@+id/textitemcontext6"
@@ -364,10 +267,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <TextView
         android:id="@+id/textitemcontext7"
@@ -380,10 +283,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <TextView
         android:id="@+id/textitemcontext8"
@@ -396,10 +299,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622" />
+        app:layout_constraintVertical_bias="0.603" />
 
     <TextView
         android:id="@+id/textitem1"
@@ -412,10 +315,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.224"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toEndOf="@+id/imageItem1"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/textitem2"
@@ -428,26 +331,107 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toEndOf="@+id/imageItem2"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.126" />
 
     <TextView
-        android:id="@+id/textitem3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dust of Appearance"
-        android:textColor="#E8E6E3"
+        android:id="@+id/textitemcontext4"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• Усі підконтрольні гравцям істоти та герої стають невидимими "
+        android:textColor="#A7A7A7"
         android:textColorLink="#E8E6E3"
-        android:textSize="12sp"
+        android:textSize="7sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintTop_toTopOf="@+id/textitem4"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textitemcontext2"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="200dp"
+        android:text="• Встановлює невидимий тотем всебачення"
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.30"
+        app:layout_constraintStart_toEndOf="@+id/imageItem2"
+        app:layout_constraintTop_toBottomOf="@+id/textitem2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textitemcontext_3"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 80 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textitem3"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/textitemcontext_4"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:text="• 50 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textitem4"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textitemcontext3"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="228dp"
+        android:text="• Робить усіх невидимих героїв видимими "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textitem3"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textitemcontext_2"
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="200dp"
+        android:text="• 50 золота"
+        android:textColor="#E2B23A"
+        android:textColorLink="#E8E6E3"
+        android:textSize="7sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.320"
+        app:layout_constraintStart_toEndOf="@+id/imageItem2"
+        app:layout_constraintTop_toBottomOf="@+id/textitem2"
+        app:layout_constraintVertical_bias="0.037" />
 
     <TextView
         android:id="@+id/textitem4"
@@ -460,10 +444,26 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/textitem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dust of Appearance"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/imageItem3"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.234" />
 
     <TextView
         android:id="@+id/textitem5"
@@ -476,10 +476,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.371" />
 
     <TextView
         android:id="@+id/textitem6"
@@ -492,10 +492,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintHorizontal_bias="0.745"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <TextView
         android:id="@+id/textitem7"
@@ -508,10 +508,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintHorizontal_bias="0.795"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.509" />
 
     <TextView
         android:id="@+id/textitem8"
@@ -524,93 +524,85 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.58" />
 
     <ImageView
         android:id="@+id/imageItem1"
         android:layout_width="38dp"
         android:layout_height="30dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginBottom="223dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
         android:src="@drawable/observer"
-        app:layout_constraintBottom_toTopOf="@+id/text5"
-        app:layout_constraintEnd_toStartOf="@+id/textitemcontext1"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem2"
         android:layout_width="38dp"
         android:layout_height="30dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="68dp"
         android:src="@drawable/sentry"
-        app:layout_constraintBottom_toTopOf="@+id/text5"
-        app:layout_constraintEnd_toStartOf="@+id/textitemcontext2"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.377"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem6"
         android:layout_width="38dp"
         android:layout_height="30dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginTop="67dp"
         android:src="@drawable/salve"
-        app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toEndOf="@+id/imageItem2"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem3"
         android:layout_width="38dp"
         android:layout_height="30dp"
+        android:layout_marginStart="22dp"
         android:src="@drawable/dust"
         app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toStartOf="@+id/textitemcontext3"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.576"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.41"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem4"
         android:layout_width="38dp"
         android:layout_height="30dp"
-        android:layout_marginTop="217dp"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="22dp"
         android:src="@drawable/smoke"
         app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toStartOf="@+id/textitemcontext4"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.785"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem8"
         android:layout_width="38dp"
         android:layout_height="30dp"
-        android:layout_marginTop="217dp"
         android:src="@drawable/clarity"
         app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toEndOf="@+id/imageItem4"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.606"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -618,49 +610,49 @@
         android:layout_width="38dp"
         android:layout_height="30dp"
         android:src="@drawable/mango"
-        app:layout_constraintBottom_toTopOf="@+id/imageItem8"
+        app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toEndOf="@+id/imageItem3"
-        app:layout_constraintTop_toBottomOf="@+id/imageItem6"
-        app:layout_constraintVertical_bias="0.455"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.410"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageItem5"
         android:layout_width="38dp"
         android:layout_height="30dp"
-        android:layout_marginTop="58dp"
         android:layout_marginBottom="223dp"
         android:src="@drawable/tango"
         app:layout_constraintBottom_toTopOf="@+id/text5"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toEndOf="@+id/imageItem1"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.14"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="104dp"
         android:layout_height="44dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="88dp"
         android:src="@drawable/valve"
+        app:layout_constraintBottom_toBottomOf="@+id/text5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/text5"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="172dp"
         android:layout_height="80dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="72dp"
+
         android:src="@drawable/dtlogo"
+        app:layout_constraintBottom_toBottomOf="@+id/text5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/text5"
         tools:ignore="MissingConstraints" />
 
     <Button

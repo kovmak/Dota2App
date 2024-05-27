@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="defaultPosition"
+    android:background="#090909">
+
+    <TextView
+        android:id="@+id/textmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="НОВИНИ"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <View
+        android:id="@+id/linemain"
+        android:layout_width="65dp"
+        android:layout_height="2dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Оновлення 7.36 та друга дія Коронопаду"
+        android:textColor="#E8E6E3"
+        android:textColorLink="#E8E6E3"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="179dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="23 травня 2024 р."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/text3_5"
+        android:layout_width="385dp"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:text="І наостанок. Якщо ви були зайняті впродовж минулого місяця (таке трапляється) і хвилюєтеся, чи все ще зможете грати в першу дію Коронопаду після виходу другої дії: так, зможете. Усі попередні дії Коронопаду будуть доступні після виходу наступних аж до завершення події."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="11sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <TextView
+        android:id="@+id/text3_1"
+        android:layout_width="386dp"
+        android:layout_height="35dp"
+        android:gravity="left"
+        android:text="Про це запитували. На це очікували. Упродовж місяців пробували вгадати, що ж там буде. І тепер… ми нарешті це випускаємо."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="11sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <TextView
+        android:id="@+id/text3_4"
+        android:layout_width="385dp"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:text="Ми також випустили другу частину Коронопаду. Цього разу дія відбувається в суворих пустелях Друуда. Є нова мапа світу, нова історія, деякі нові персонажі (і деякі вже знайомі улюбленці), нові косметичні предмети, нові міні-ігри, а також ще декілька сюрпризів."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="11sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <TextView
+        android:id="@+id/text3_2"
+        android:layout_width="385dp"
+        android:layout_height="15dp"
+        android:gravity="left"
+        android:text="Саме так: гра-риболовля другої дії Коронопаду вже ВИЙШЛА! "
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="11sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="396dp"
+        android:layout_height="108dp"
+        android:gravity="center"
+        android:text="Dota і логотип Dota є торговельними марками та/або зареєстрованими торговельними марками Valve Corporation. 2023 Valve Corporation. Усі права захищено."
+        android:textColor="#A7A7A7"
+        android:textColorLink="#A7A7A7"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="65dp"
+        android:layout_height="2dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="145dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="153dp"
+        android:src="@drawable/news"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="104dp"
+        android:layout_height="44dp"
+        android:src="@drawable/valve"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="172dp"
+        android:layout_height="80dp"
+        android:src="@drawable/dtlogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <Button
+        android:id="@+id/ButtonBack"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#101010"
+        android:text="Назад"
+        android:textColor="#E8E6E3"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="731dp" />
+
+    <Button
+        android:id="@+id/ButtonShop"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#101010"
+        android:text="Предмети"
+        android:textColor="#E8E6E3"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="731dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="414dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
